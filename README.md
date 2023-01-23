@@ -1,2 +1,4 @@
 # Hyperparameter-Tuning-with-Lasso-and-Ridge
 Exploring the process of optimizing choice of hyperparameters when building Lasso and Ridge regression models
+
+In certain cases of building machine learning models the need to select a hyperparameter that contributes directly to the process of building the model is necessary. In contrast to the other parameters of the model in question which are derived from the model learning, hyperparameters must be chosen beforehand. As a result a method should be devised which aims to select the optimal set of hyperparameters for each case. In the case of Lasso and Ridge regression I will explore implementing a grid search method combined with the use of cross validation the select the hyperparameter lambda for the L1 and L2 regularization terms respectively.
